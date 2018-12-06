@@ -1,0 +1,5 @@
+#!/bin/bash
+
+clear
+
+NODE_ENV=production NODE_DEBUG=server,workers,helpers node index.js
